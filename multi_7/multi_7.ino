@@ -269,28 +269,25 @@ void setup() {
 }
 
 void loop() {
-//  int timer = 1;
-//  double i = 0.00;
-//  while (i < 10.00) {
-//    show3Digits_10(i,timer);
-//    i = i + 0.01;
-//  }
-//  while (i < 100.0) {
-//    show3Digits_100(i,timer);
-//    i = i + 0.1;
-//  }
-//  while (i < 1000) {
-//    show3Digits_1000(i,timer);
-//    i = i + 1;
-//  }
-//  for (int i = 0; i < 376; i++) {
-//    showWord(words[i], 5);
-//  }
+  int timer = 1;
+  double i = 0.00;
+  while (i < 10.00) {
+    show3Digits_10(i,timer);
+    i = i + 0.01;
+  }
+  while (i < 100.0) {
+    show3Digits_100(i,timer);
+    i = i + 0.1;
+  }
+  while (i < 1000) {
+    show3Digits_1000(i,timer);
+    i = i + 1;
+  }
+  for (int i = 0; i < 376; i++) {
+    showWord(words[i], 5);
+  }
 
   //show3Digits_10(8.65); // Rounding error??
-  
-  //show3Digits_1000(420,33);
-  //showWord(words[81],33); //dab
   
   char w[21] = {' ', ' ', ' ', 'h', 'a', 'v', 'e', ' ', 'a', ' ', 'n', 'i', 'c', 'e', ' ', 'd', 'a', 'y', ' ', ' ', ' '};
   
